@@ -1,5 +1,5 @@
 allprojects {
-   group = 'org.istio'
+   group = 'org.bookinfo'
    version = '1.0'
    repositories {
      mavenCentral()
