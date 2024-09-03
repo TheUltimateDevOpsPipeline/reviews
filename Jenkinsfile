@@ -9,7 +9,7 @@ pipeline {
                 script {
                     def utils = new org.bookinfo.pipeline.PipelineUtils(this)
 
-                    utils.runPipeline( utils,
+                    utils.runPipeline(
                         buildType: 'gradle', // or 'maven', 'ant', 'nodejs'
                         groupId: 'com.bookinfo',
                         artifactId: 'reviews',
