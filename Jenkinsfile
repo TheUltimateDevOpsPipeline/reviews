@@ -7,7 +7,7 @@ pipeline {
         stage('Run Pipeline') {
             steps {
                 script {
-                    def utils = new com.bookinfo.pipeline.PipelineUtils(this)
+                    def utils = new org.bookinfo.pipeline.PipelineUtils(this)
 
                     utils.runPipeline(
                         buildType: 'gradle', // or 'maven', 'ant', 'nodejs'
