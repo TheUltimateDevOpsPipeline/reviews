@@ -5,7 +5,7 @@ def utils = new org.bookinfo.pipeline.PipelineUtils(this)
 
 utils.runPipeline(
     buildType: 'gradle', // or 'maven', 'ant', 'nodejs'
-    buildCommand: 'gradle build'
+    buildCommand: 'gradle build',
     groupId: 'com.bookinfo',
     skipBuild: true,
     skipNexusUpload: true,
