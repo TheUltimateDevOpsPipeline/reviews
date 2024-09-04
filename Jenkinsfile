@@ -9,7 +9,7 @@ utils.runPipeline(
     groupId: 'com.bookinfo',
     artifactId: 'reviews',
     version: '1.0',
-    filePath: 'target/reviews-application-1.0.war',
+    filePath: 'reviews-application/build/libs/reviews-application-1.0.war',
     // imageName: 'your-image-name',
     // chartPath: 'path/to/chart',
     // values: [image: 'your-image-name', tag: '1.0.0'],
